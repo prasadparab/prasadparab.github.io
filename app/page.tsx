@@ -50,6 +50,42 @@ export default function SportsClubPage() {
   const [data, setData] = useState<SportsData | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [isPortrait, setIsPortrait] = useState(false)
+
+  useEffect(() => {
+    const updateOrientation = () => {
+      const portrait = window.matchMedia("(orientation: portrait)").matches
+      setIsPortrait(portrait)
+    }
+
+    updateOrientation()
+    window.addEventListener("resize", updateOrientation)
+    if (window.screen?.orientation) {
+      window.screen.orientation.addEventListener("change", updateOrientation)
+    }
+
+    // Try the Screen Orientation API (best effort; may be blocked in browsers without user gesture)
+    if (window.screen?.orientation?.lock) {
+      window.screen.orientation.lock("landscape").catch(() => {
+        /* ignore */
+      })
+    }
+
+    return () => {
+      window.removeEventListener("resize", updateOrientation)
+      if (window.screen?.orientation) {
+        window.screen.orientation.removeEventListener("change", updateOrientation)
+      }
+    }
+  }, [])
+
+  useEffect(() => {
+    if (isPortrait && window.screen?.orientation?.lock) {
+      window.screen.orientation.lock("landscape").catch(() => {
+        /* ignore */
+      })
+    }
+  }, [isPortrait])
 
   useEffect(() => {
     const fetchData = async () => {
@@ -93,17 +129,29 @@ export default function SportsClubPage() {
   }
 
   return (
-    <div className="min-h-screen bg-background">
-      <Header clubName={data.clubName} />
-      <main>
+    <>
+      {isPortrait && (
+        <div className="orientation-warning fixed inset-0 z-50 flex items-center justify-center bg-background/95 p-4 text-center">
+          <div className="max-w-sm rounded-xl border border-border bg-card p-6">
+            <h2 className="text-lg font-bold mb-2">Please rotate your device</h2>
+            <p className="text-sm text-muted-foreground">
+              This site works best in landscape mode. Rotate your phone or tablet to continue.
+            </p>
+          </div>
+        </div>
+      )}
+      <div className="site-content min-h-screen bg-background">
+        <Header clubName={data.clubName} />
+        <main>
         <HeroSection clubName={data.clubName} season={data.season} />
         <GamesSection games={data.games} />
         <TeamsSection teams={data.teams} />
         <ScheduleSection games={data.games} teams={data.teams} />
         <LeaderboardSection teams={data.teams} games={data.games} />
         <GallerySection games={data.games} teams={data.teams} />
-      </main>
-      <Footer clubName={data.clubName} />
-    </div>
+        </main>
+        <Footer clubName={data.clubName} />
+      </div>
+    </>
   )
 }

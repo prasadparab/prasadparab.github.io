@@ -123,3 +123,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* enforce landscape experience on mobile, show overlay in portrait */
+.orientation-warning {
+  display: none;
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+  .site-content {
+    display: none;
+  }
+  .orientation-warning {
+    display: flex;
+  }
+}
