@@ -104,7 +104,17 @@ export default function SportsClubPage() {
     }
 
     fetchData()
-  }, [])
+  }, []);
+  const [isVisible, setIsVisible] = useState(true);
+  useEffect(() => {
+    // 2. Set timer for 30 seconds (30,000 ms)
+    const timer = setTimeout(() => {
+      setIsVisible(false); // Change visibility
+    }, 60000);
+
+    // 3. Cleanup timer to avoid memory leaks
+    return () => clearTimeout(timer);
+  }, []);
 
   if (loading) {
     return (
@@ -151,6 +161,14 @@ export default function SportsClubPage() {
         <GallerySection games={data.games} teams={data.teams} />
         </main>
         <Footer clubName={data.clubName} />
+         {isVisible && (
+          <div id="broughttoyouby" style={{ display: 'block', position: 'fixed',
+             bottom: '15px', right: '20px',
+             padding: '2px 5px',
+             fontSize: '18px',
+      backgroundColor: '#202020',
+      borderRadius: '10px'  }}>Designed by Swapnil Parab (Pappu 35)</div>
+        )}
       </div>
     </>
   )

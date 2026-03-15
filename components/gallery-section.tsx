@@ -277,7 +277,11 @@ export function GallerySection({ games, teams }: GallerySectionProps) {
           </div>
         </div>
       </div>
-
+            <div className="max-w-7xl mx-auto" style={{textAlign:"center",position:"relative",
+        top:"40px", fontSize:"24px", color:"#d34747", fontWeight:"bold"
+      }}>
+        Designed by Swapnil Parab (Pappu 35)
+      </div>
       {/* Lightbox Modal */}
       <Dialog open={lightbox !== null} onOpenChange={(open) => !open && setLightbox(null)}>
         <DialogContent className="max-w-4xl p-0 bg-black/95 border-none">

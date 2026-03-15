@@ -83,7 +83,7 @@ export function HeroSection({ clubName, season }: HeroSectionProps) {
             <div className="text-sm text-muted-foreground mt-1">Games</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl sm:text-5xl font-black text-foreground">60+</div>
+            <div className="text-4xl sm:text-5xl font-black text-foreground">160+</div>
             <div className="text-sm text-muted-foreground mt-1">Athletes</div>
           </div>
         </div>

@@ -27,6 +27,11 @@ interface GamesSectionProps {
 export function GamesSection({ games }: GamesSectionProps) {
   return (
     <section id="games" className="py-24 px-4 sm:px-6 lg:px-8">
+      {/* <div className="max-w-7xl mx-auto" style={{textAlign:"center",position:"relative",
+        top:"-40px", fontSize:"24px", color:"#d34747", fontWeight:"bold"
+      }}>
+        Designed by Swapnil Parab (Pappu 35)
+      </div> */}
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black text-foreground tracking-tight mb-4">
