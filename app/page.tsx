@@ -167,7 +167,7 @@ export default function SportsClubPage() {
              padding: '2px 5px',
              fontSize: '18px',
       backgroundColor: '#202020',
-      borderRadius: '10px'  }}>Designed by Swapnil Parab (Pappu 35)</div>
+      borderRadius: '10px'  }}>Brought to you by Swapnil Parab (Pappu 35)</div>
         )}
       </div>
     </>
