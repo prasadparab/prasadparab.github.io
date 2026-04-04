@@ -120,10 +120,10 @@
       "name": "Box Cricket",
       "icon": "cricket",
       "description": "Fast paced madness in a box.",
-      "date": "2026-04-11/12",
-      "time": "09:00 AM",
+      "date": "2026-04-11",
+      "time": "07:00 PM",
       "venue": "Main Cricket Ground",
-      "status": "completed",
+      "status": "upcoming",
       "results": null,
       "gallery": {
         "first": "/images/gallery/cricket-1st.jpg",
@@ -133,56 +133,28 @@
     },
     {
       "id": "football",
-      "name": "Football",
+      "name": "Ring Football",
       "icon": "football",
       "description": "The beautiful game awaits",
-      "date": "2026-04-12",
-      "time": "10:00 AM",
-      "venue": "Stadium Arena",
-      "status": "completed",
-      "results": {
-        "first": "team-cosmos",
-        "second": "team-alpha",
-        "third": "team-dynamo"
-      },
+      "date": "2026-04-13",
+      "time": "07:00 PM",
+      "venue": "WSC Ground",
+      "status": "upcoming",
+      "results": null,
       "gallery": {
         "first": "/images/gallery/football-1st.jpg",
         "second": "/images/gallery/football-2nd.jpg",
         "third": "/images/gallery/football-3rd.jpg"
       }
     },
-    
     {
-      "id": "chess",
-      "name": "Chess",
-      "icon": "chess",
-      "description": "Battle of minds",
-      "date": "2026-04-26",
-      "time": "11:00 AM",
-      "venue": "Conference Room A",
-      "status": "upcoming",
-      "results": null
-    },
-    {
-      "id": "volleyball",
-      "name": "Volleyball",
-      "icon": "volleyball",
-      "description": "Spike your way to victory",
-      "date": "2026-05-03",
-      "time": "09:00 AM",
-      "venue": "Volleyball Court",
-      "status": "upcoming",
-      "results": null
-    },
-    
-    {
-      "id": "badminton",
-      "name": "Badminton",
-      "icon": "badminton",
-      "description": "Swift and agile",
-      "date": "2026-05-17",
-      "time": "09:00 AM",
-      "venue": "Indoor Courts",
+      "id": "cricket_season",
+      "name": "Cricket Season Ball",
+      "icon": "cricket",
+      "description": "where the primary goal is to launch a ball into orbit and the secondary goal is not to get sunburned",
+      "date": "2026-06-19",
+      "time": "08:00 AM",
+      "venue": "WSC Ground",
       "status": "upcoming",
       "results": null
     },
@@ -191,42 +163,66 @@
       "name": "Table Tennis",
       "icon": "table-tennis",
       "description": "Quick reflexes required",
-      "date": "2026-05-24",
-      "time": "02:00 PM",
-      "venue": "Recreation Center",
+      "date": "2026-04-24",
+      "time": "07:00 PM",
+      "venue": "WSC TT Hall",
       "status": "upcoming",
       "results": null
     },
     {
-      "id": "basketball",
-      "name": "Basketball",
+      "id": "cricket_overarm",
+      "name": "Cricket Overarm",
+      "icon": "cricket",
+      "description": "Hitting sixes, chasing balls, taking breaks.",
+      "date": "2026-04-26",
+      "time": "09:00 AM",
+      "venue": "WSC Ground",
+      "status": "upcoming",
+      "results": null
+    },
+    
+    {
+      "id": "chess",
+      "name": "Chess",
+      "icon": "chess",
+      "description": "Battle of minds",
+      "date": "2026-05-02",
+      "time": "06:00 PM",
+      "venue": "WSC premises",
+      "status": "upcoming",
+      "results": null
+    },
+    {
+      "id": "badminton",
+      "name": "Badminton",
+      "icon": "badminton",
+      "description": "Fast rallies with a feathered birdy.",
+      "date": "2026-05-03",
+      "time": "07:00 PM",
+      "venue": "WSC premises",
+      "status": "upcoming",
+      "results": null
+    },
+    {
+      "id": "volleyball",
+      "name": "Volleyball",
+      "icon": "volleyball",
+      "description": "High-energy spikes and tactical net blocks.",
+      "date": "2026-05-08",
+      "time": "07:00 PM",
+      "venue": "WSC Volleyball Court",
+      "status": "upcoming",
+      "results": null
+    },    
+    
+    {
+      "id": "underarm",
+      "name": "Underarm Cricket - Chakri & Prize distribution",
       "icon": "basketball",
       "description": "Shoot for the stars",
-      "date": "2026-05-31",
-      "time": "10:00 AM",
-      "venue": "Basketball Arena",
-      "status": "upcoming",
-      "results": null
-    },
-    {
-      "id": "tennis",
-      "name": "Tennis",
-      "icon": "tennis",
-      "description": "Ace your opponents",
-      "date": "2026-06-07",
-      "time": "09:00 AM",
-      "venue": "Tennis Courts",
-      "status": "upcoming",
-      "results": null
-    },
-    {
-      "id": "swimming",
-      "name": "Swimming",
-      "icon": "swimming",
-      "description": "Dive into competition",
-      "date": "2026-06-14",
-      "time": "08:00 AM",
-      "venue": "Aquatic Center",
+      "date": "2026-05-10",
+      "time": "07:00 PM",
+      "venue": "WSC premises",
       "status": "upcoming",
       "results": null
     }
