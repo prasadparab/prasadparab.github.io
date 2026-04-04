@@ -97,7 +97,7 @@ export function GamesSection({ games }: GamesSectionProps) {
                       year: 'numeric'
                     })}</span>
                     {game.endDate && (
-                      <span> - {new Date(game.endDate).toLocaleDateString('en-US', { 
+                      <span> {new Date(game.endDate).toLocaleDateString('en-US', { 
                         month: 'short', 
                         day: 'numeric',
                         year: 'numeric'
