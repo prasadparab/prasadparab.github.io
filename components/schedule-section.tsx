@@ -16,6 +16,7 @@ interface Game {
   icon: string
   description: string
   date: string
+  endDate?: string
   time: string
   venue: string
   status: "completed" | "upcoming"
@@ -109,6 +110,13 @@ export function ScheduleSection({ games, teams }: ScheduleSectionProps) {
                               month: 'short', 
                               day: 'numeric'
                             })}</span>
+                            {game.endDate && (
+                              <span> - {new Date(game.endDate).toLocaleDateString('en-US', { 
+                                month: 'short', 
+                                day: 'numeric'
+                              })}</span>
+                            )}
+
                           </div>
                           <div className="flex items-center gap-1">
                             <Clock className="w-3.5 h-3.5" />
