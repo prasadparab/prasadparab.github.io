@@ -145,7 +145,8 @@ export default function SportsClubPage() {
           <div className="max-w-sm rounded-xl border border-border bg-card p-6">
             <h2 className="text-lg font-bold mb-2">Please rotate your device</h2>
             <p className="text-sm text-muted-foreground">
-              This site works best in landscape mode. Rotate your phone or tablet to continue.
+              This site works best in landscape mode. Rotate your phone or tablet to continue. <br />
+              Also you may need to turn on "Auto-rotate" mode for your device
             </p>
           </div>
         </div>
