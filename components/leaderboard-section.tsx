@@ -48,8 +48,8 @@ interface TeamScore {
 
 const POINTS = {
   first: 100,
-  second: 70,
-  third: 50,
+  second: 50,
+  third: 30,
 }
 
 type PlaceType = "first" | "second" | "third"
