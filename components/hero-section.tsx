@@ -75,7 +75,7 @@ export function HeroSection({ clubName, season }: HeroSectionProps) {
         {/* Stats */}
         <div className="grid grid-cols-3 gap-8 mt-20 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-4xl sm:text-5xl font-black text-foreground">8</div>
+            <div className="text-4xl sm:text-5xl font-black text-foreground">7</div>
             <div className="text-sm text-muted-foreground mt-1">Teams</div>
           </div>
           <div className="text-center">
@@ -83,7 +83,7 @@ export function HeroSection({ clubName, season }: HeroSectionProps) {
             <div className="text-sm text-muted-foreground mt-1">Games</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl sm:text-5xl font-black text-foreground">160+</div>
+            <div className="text-4xl sm:text-5xl font-black text-foreground">175+</div>
             <div className="text-sm text-muted-foreground mt-1">Athletes</div>
           </div>
         </div>

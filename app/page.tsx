@@ -110,7 +110,7 @@ export default function SportsClubPage() {
     // 2. Set timer for 30 seconds (30,000 ms)
     const timer = setTimeout(() => {
       setIsVisible(false); // Change visibility
-    }, 60000);
+    }, 600000);
 
     // 3. Cleanup timer to avoid memory leaks
     return () => clearTimeout(timer);
