@@ -89,19 +89,42 @@
   ],
   "games": [
     {
+      "id": "pickleball",
+      "name": "Pickleball & Opening Ceremony",
+      "icon": "pickleball",
+      "description": "Fast-paced paddle action",
+      "date": "2026-04-10",
+      "time": "6:00 PM",
+      "venue": "WSC Courts",
+      "status": "upcoming",
+      "results": null
+    },
+    {
+      "id": "carrom",
+      "name": "Carrom",
+      "icon": "carrom",
+      "description": "Precision and strategy combined",
+      "date": "2026-04-12",
+      "time": "09:00 AM onwards",
+      "venue": "WSC premises",
+      "status": "upcoming",
+      "results": null,
+      "gallery": {
+        "first": "/images/gallery/carrom-1st.jpg",
+        "second": "/images/gallery/carrom-2nd.jpg",
+        "third": "/images/gallery/carrom-3rd.jpg"
+      }
+    },
+    {
       "id": "cricket",
-      "name": "Cricket",
+      "name": "Box Cricket",
       "icon": "cricket",
-      "description": "Test your batting and bowling skills",
-      "date": "2026-04-05",
+      "description": "Fast paced madness in a box.",
+      "date": "2026-04-11/12",
       "time": "09:00 AM",
       "venue": "Main Cricket Ground",
       "status": "completed",
-      "results": {
-        "first": "team-alpha",
-        "second": "team-blaze",
-        "third": "team-legends"
-      },
+      "results": null,
       "gallery": {
         "first": "/images/gallery/cricket-1st.jpg",
         "second": "/images/gallery/cricket-2nd.jpg",
@@ -128,26 +151,7 @@
         "third": "/images/gallery/football-3rd.jpg"
       }
     },
-    {
-      "id": "carrom",
-      "name": "Carrom",
-      "icon": "carrom",
-      "description": "Precision and strategy combined",
-      "date": "2026-04-19",
-      "time": "02:00 PM",
-      "venue": "Indoor Sports Hall",
-      "status": "completed",
-      "results": {
-        "first": "team-blaze",
-        "second": "team-cosmos",
-        "third": "team-alpha"
-      },
-      "gallery": {
-        "first": "/images/gallery/carrom-1st.jpg",
-        "second": "/images/gallery/carrom-2nd.jpg",
-        "third": "/images/gallery/carrom-3rd.jpg"
-      }
-    },
+    
     {
       "id": "chess",
       "name": "Chess",
@@ -170,17 +174,7 @@
       "status": "upcoming",
       "results": null
     },
-    {
-      "id": "pickleball",
-      "name": "Pickleball",
-      "icon": "pickleball",
-      "description": "Fast-paced paddle action",
-      "date": "2026-05-10",
-      "time": "10:00 AM",
-      "venue": "Sports Complex",
-      "status": "upcoming",
-      "results": null
-    },
+    
     {
       "id": "badminton",
       "name": "Badminton",
