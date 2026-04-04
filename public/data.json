@@ -1,90 +1,54 @@
 {
   "clubName": "Worli Sports Club",
   "season": "2026",
-  "teams": [
+  "teams": [    
     {
-      "id": "team-alpha",
-      "name": "Golden Sports Club",
-      "logo": "/images/teams/alpha.svg",
-      "color": "#E67E22",
-      "members": ["Alex Johnson", "Sarah Chen", "Mike Rodriguez", "Emma Wilson", "James Lee"]
-    },
-    {
-      "id": "team-blaze",
-      "name": "Team Blaze",
-      "logo": "/images/teams/blaze.svg",
-      "color": "#E74C3C",
-      "members": ["Chris Taylor", "Lisa Park", "David Kim", "Rachel Green", "Tom Harris"]
-    },
-    {
-      "id": "team-cosmos",
-      "name": "Team Cosmos",
-      "logo": "/images/teams/cosmos.svg",
-      "color": "#3498DB",
-      "members": ["John Smith", "Amy Brown", "Kevin White", "Maria Garcia", "Ryan Davis"]
-    },
-    {
+      "id": "team-elite",
+      "name": "42 INDIAN",
+      "logo": "/images/teams/elite.svg",
+      "color": "#9B59B6",
+      "members": ["Noah Williams", "Ava Jackson", "Mason Miller", "Isabella Davis", "Logan Wilson"]
+    },{
       "id": "team-dynamo",
-      "name": "Team Dynamo",
+      "name": "ADARSH NAGAR LEGENDS",
       "logo": "/images/teams/dynamo.svg",
       "color": "#2ECC71",
       "members": ["Daniel Martinez", "Sophie Anderson", "Luke Thompson", "Olivia Moore", "Ethan Clark"]
     },
     {
-      "id": "team-elite",
-      "name": "Team Elite",
-      "logo": "/images/teams/elite.svg",
-      "color": "#9B59B6",
-      "members": ["Noah Williams", "Ava Jackson", "Mason Miller", "Isabella Davis", "Logan Wilson"]
-    },
-    {
-      "id": "team-fusion",
-      "name": "Team Fusion",
-      "logo": "/images/teams/fusion.svg",
-      "color": "#1ABC9C",
-      "members": ["Jacob Brown", "Mia Garcia", "William Jones", "Charlotte Taylor", "Benjamin Lee"]
-    },
-    {
       "id": "team-galaxy",
-      "name": "Team Galaxy",
+      "name": "DETON 8",
       "logo": "/images/teams/galaxy.svg",
       "color": "#F39C12",
       "members": ["Alexander Martin", "Amelia White", "Henry Thompson", "Harper Moore", "Sebastian Clark"]
     },
     {
-      "id": "team-horizon",
-      "name": "Team Horizon",
-      "logo": "/images/teams/horizon.svg",
-      "color": "#16A085",
-      "members": ["Jack Anderson", "Evelyn Jackson", "Owen Miller", "Abigail Davis", "Samuel Wilson"]
+      "id": "team-fusion",
+      "name": "DHURANDER 3.0",
+      "logo": "/images/teams/fusion.svg",
+      "color": "#1ABC9C",
+      "members": ["Jacob Brown", "Mia Garcia", "William Jones", "Charlotte Taylor", "Benjamin Lee"]
     },
     {
-      "id": "team-inferno",
-      "name": "Team Inferno",
-      "logo": "/images/teams/inferno.svg",
-      "color": "#C0392B",
-      "members": ["Liam Taylor", "Emily Garcia", "Carter Brown", "Scarlett Lee", "Jayden Martinez"]
+      "id": "team-blaze",
+      "name": "GOLDEB SPORTS CLUB - A",
+      "logo": "/images/teams/blaze.svg",
+      "color": "#E74C3C",
+      "members": ["Prasad Satardekar","Milind Lad","Amit Prabhu","Vishal Dabholkar","Sunil Dabholkar","Sanket Gawde","Abhijeet Gawde","Sanjeev Srivatsava","Anish Surve","Rahul Sawant","Jagat Singh","Rudransh Surve","Thomson Thomas","Pranav Lokre","Sumeet Patankar","Sudarshan Patankar","Nikhil Sen","Shaurya Rane","Gaurav SHirodkar","Rohit Bura","Devansh Singh","Sarthak Patankar","Joel Siero","Sanju Dabholkar"]
     },
     {
-      "id": "team-jaguar",
-      "name": "Team Jaguar",
-      "logo": "/images/teams/jaguar.svg",
-      "color": "#8E44AD",
-      "members": ["Lucas White", "Victoria Thompson", "Nathan Moore", "Grace Clark", "Isaac Davis"]
+      "id": "team-cosmos",
+      "name": "GOLDEB SPORTS CLUB - B",
+      "logo": "/images/teams/cosmos.svg",
+      "color": "#3498DB",
+      "members": ["Sameer Patankar", "Ajay Menon", "Balaji Samal", "Pankaj Khetle", "Avinash Rane", "Sandeep shirodkar","Swapnil Gawde","Sumeet Sawant","Mohan Singh","Arnav Lad","Prasad Parab","Gaurav Pai","Kiran Amberkar","Arnav Kalzunkar","Harish Waratkar","Jayesh Lokre","Linesh Sule","Mahesh Singh","Vijay Srivastava","Amit Kanade","Kiran Satardekar","Neel Srivastava","Subhash Parab","Sachin Dabholkar","Anurag Saha"]
     },
     {
-      "id": "team-knights",
-      "name": "Team Knights",
-      "logo": "/images/teams/knights.svg",
-      "color": "#2980B9",
-      "members": ["Aiden Wilson", "Chloe Anderson", "Caleb Jackson", "Zoey Miller", "Dylan Brown"]
-    },
-    {
-      "id": "team-legends",
-      "name": "Team Legends",
-      "logo": "/images/teams/legends.svg",
-      "color": "#27AE60",
-      "members": ["Hunter Garcia", "Lily Taylor", "Connor Lee", "Hannah Martinez", "Eli Thompson"]
+      "id": "team-alpha",
+      "name": "SANDI MANDI",
+      "logo": "/images/teams/alpha.svg",
+      "color": "#E67E22",
+      "members": ["Alex Johnson", "Sarah Chen", "Mike Rodriguez", "Emma Wilson", "James Lee"]
     }
   ],
   "games": [
@@ -98,22 +62,6 @@
       "venue": "WSC Courts",
       "status": "upcoming",
       "results": null
-    },
-    {
-      "id": "carrom",
-      "name": "Carrom",
-      "icon": "carrom",
-      "description": "Precision and strategy combined",
-      "date": "2026-04-12",
-      "time": "09:00 AM",
-      "venue": "WSC premises",
-      "status": "upcoming",
-      "results": null,
-      "gallery": {
-        "first": "/images/gallery/carrom-1st.jpg",
-        "second": "/images/gallery/carrom-2nd.jpg",
-        "third": "/images/gallery/carrom-3rd.jpg"
-      }
     },
     {
       "id": "cricket",
@@ -133,11 +81,28 @@
       }
     },
     {
+      "id": "carrom",
+      "name": "Carrom",
+      "icon": "carrom",
+      "description": "Precision and strategy combined",
+      "date": "2026-04-12",
+      "time": "09:00 AM",
+      "venue": "WSC premises",
+      "status": "upcoming",
+      "results": null,
+      "gallery": {
+        "first": "/images/gallery/carrom-1st.jpg",
+        "second": "/images/gallery/carrom-2nd.jpg",
+        "third": "/images/gallery/carrom-3rd.jpg"
+      }
+    },
+    {
       "id": "football",
       "name": "Ring Football",
       "icon": "football",
       "description": "The beautiful game awaits",
       "date": "2026-04-13",
+      "endDate": "2026-04-14",
       "time": "07:00 PM",
       "venue": "WSC Ground",
       "status": "upcoming",
@@ -165,6 +130,7 @@
       "icon": "table-tennis",
       "description": "Quick reflexes and fast-paced rallies.",
       "date": "2026-04-24",
+      "endDate": "2026-04-25",
       "time": "07:00 PM",
       "venue": "WSC TT Hall",
       "status": "upcoming",
@@ -210,6 +176,7 @@
       "icon": "volleyball",
       "description": "High-energy spikes and tactical net blocks.",
       "date": "2026-05-08",
+      "endDate": "2026-05-09",
       "time": "07:00 PM",
       "venue": "WSC Volleyball Court",
       "status": "upcoming",

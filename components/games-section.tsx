@@ -91,18 +91,26 @@ export function GamesSection({ games }: GamesSectionProps) {
                 <div className="space-y-2">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <Calendar className="w-4 h-4" />
-                    <span>{new Date(game.date).toLocaleDateString('en-US', { 
-                      month: 'short', 
+                    {game.endDate ?(
+                      <span>
+                        {new Date(game.date).toLocaleDateString('en-GB', { 
                       day: 'numeric',
-                      year: 'numeric'
-                    })}</span>
-                    {game.endDate && (
-                      <span> {new Date(game.endDate).toLocaleDateString('en-US', { 
-                        month: 'short', 
+                      month: 'short'
+                      })} -  
+                      {" "+new Date(game.endDate).toLocaleDateString('en-GB', { 
                         day: 'numeric',
-                        year: 'numeric'
+                        month: 'short', 
+                        year: '2-digit',
+                      })}
+                      </span>):(
+                        <span>
+                        {new Date(game.date).toLocaleDateString('en-GB', { 
+                      day: 'numeric',
+                      month: 'short', 
+                      year: '2-digit'
                       })}</span>
-                    )}
+                      )}
+                    
 
                     <span className="text-border">•</span>
                     <span>{game.time}</span>
