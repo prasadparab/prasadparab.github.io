@@ -188,7 +188,7 @@ export function LeaderboardSection({ teams, games }: LeaderboardSectionProps) {
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Real-time standings based on {completedGames} completed game{completedGames !== 1 ? "s" : ""}.
-            Points: 1st = 100, 2nd = 70, 3rd = 50
+            Points: 1st = {POINTS.first}, 2nd = {POINTS.second}, 3rd = {POINTS.third}
           </p>
         </div>
 
