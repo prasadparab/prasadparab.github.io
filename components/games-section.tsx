@@ -10,6 +10,7 @@ interface Game {
   icon: string
   description: string
   date: string
+  endDate?: string
   time: string
   venue: string
   status: "completed" | "upcoming"
@@ -95,6 +96,14 @@ export function GamesSection({ games }: GamesSectionProps) {
                       day: 'numeric',
                       year: 'numeric'
                     })}</span>
+                    {game.endDate && (
+                      <span> - {new Date(game.endDate).toLocaleDateString('en-US', { 
+                        month: 'short', 
+                        day: 'numeric',
+                        year: 'numeric'
+                      })}</span>
+                    )}
+
                     <span className="text-border">•</span>
                     <span>{game.time}</span>
                   </div>
