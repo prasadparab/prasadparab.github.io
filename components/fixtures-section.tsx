@@ -112,7 +112,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                <tr>
                 <td className="border border-border p-4">10.</td>
                 <td className="border border-border p-4">Looser of Qualifier 1</td>
-                <td className="border border-border p-4">Looser of Qualifier 2</td>
+                <td className="border border-border p-4">Winner of eliminator</td>
                 <td className="border border-border p-4">12:00 PM</td>
                 <td className="border border-border p-4"></td>
               </tr>
@@ -211,7 +211,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                <tr>
                 <td className="border border-border p-4">10.</td>
                 <td className="border border-border p-4">Looser of Qualifier 1</td>
-                <td className="border border-border p-4">Looser of Qualifier 2</td>
+                <td className="border border-border p-4">Winner of eliminator</td>
                 <td className="border border-border p-4">12:00 PM</td>
                 <td className="border border-border p-4"></td>
               </tr>
