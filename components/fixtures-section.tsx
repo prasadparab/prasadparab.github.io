@@ -102,6 +102,9 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">11:00 PM</td>
                 <td className="border border-border p-4"></td>
               </tr>
+              <tr>
+                <td colSpan={5}>Qualifier 1</td>
+              </tr>
                <tr>
                 <td className="border border-border p-4">9.</td>
                 <td className="border border-border p-4">3rd Topper</td>
@@ -109,12 +112,18 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">11:30 PM</td>
                 <td className="border border-border p-4"></td>
               </tr>
+              <tr>
+                <td colSpan={5}>Eliminator</td>
+              </tr>
                <tr>
                 <td className="border border-border p-4">10.</td>
                 <td className="border border-border p-4">Looser of Qualifier 1</td>
                 <td className="border border-border p-4">Winner of eliminator</td>
                 <td className="border border-border p-4">12:00 PM</td>
                 <td className="border border-border p-4"></td>
+              </tr>
+              <tr>
+                <td colSpan={5}>Qualifier 2</td>
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
@@ -201,6 +210,9 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">11:00 PM</td>
                 <td className="border border-border p-4"></td>
               </tr>
+              <tr>
+                <td colSpan={5}>Qualifier 1</td>
+              </tr>
                <tr>
                 <td className="border border-border p-4">9.</td>
                 <td className="border border-border p-4">3rd Topper</td>
@@ -208,12 +220,18 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">11:30 PM</td>
                 <td className="border border-border p-4"></td>
               </tr>
+              <tr>
+                <td colSpan={5}>Eliminator</td>
+              </tr>
                <tr>
                 <td className="border border-border p-4">10.</td>
                 <td className="border border-border p-4">Looser of Qualifier 1</td>
                 <td className="border border-border p-4">Winner of eliminator</td>
                 <td className="border border-border p-4">12:00 PM</td>
                 <td className="border border-border p-4"></td>
+              </tr>
+              <tr>
+                <td colSpan={5}>Qualifier 2</td>
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
