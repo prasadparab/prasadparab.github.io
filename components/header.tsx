@@ -19,6 +19,7 @@ export function Header({ clubName }: HeaderProps) {
     { name: "Schedule", href: "#schedule" },
     { name: "Leaderboard", href: "#leaderboard" },
     { name: "Gallery", href: "#gallery" },
+    { name: "Fixtures", href: "#fixtures" },
   ]
 
   return (
@@ -30,7 +31,7 @@ export function Header({ clubName }: HeaderProps) {
               <TrophyIcon className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-bold text-foreground tracking-tight group-hover:text-primary transition-colors">
-              {clubName}
+              {"WSC"}
             </span>
           </a>
 

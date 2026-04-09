@@ -9,6 +9,7 @@ import { ScheduleSection } from "@/components/schedule-section"
 import { LeaderboardSection } from "@/components/leaderboard-section"
 import { GallerySection } from "@/components/gallery-section"
 import { Footer } from "@/components/footer"
+import { FixturesSection } from "@/components/fixtures-section"
 
 interface Team {
   id: string
@@ -160,6 +161,7 @@ export default function SportsClubPage() {
         <ScheduleSection games={data.games} teams={data.teams} />
         <LeaderboardSection teams={data.teams} games={data.games} />
         <GallerySection games={data.games} teams={data.teams} />
+        <FixturesSection clubName={data.clubName} season={data.season} teams={data.teams}/>
         </main>
         <Footer clubName={data.clubName} />
          {isVisible && (
