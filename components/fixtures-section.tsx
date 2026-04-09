@@ -127,7 +127,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
@@ -141,7 +141,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Box Cricket
           </span>
         </div>
@@ -238,7 +238,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
@@ -252,7 +252,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Carrom
           </span>
         </div>
@@ -349,7 +349,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
@@ -363,7 +363,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Ring Football
           </span>
         </div>
@@ -460,7 +460,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
@@ -474,7 +474,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Cricket Season-Ball
           </span>
         </div>
@@ -544,7 +544,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   FINAL
                 </td>
                 <td className="border border-border p-4"></td>
@@ -557,7 +557,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Table Tennis
           </span>
         </div>
@@ -654,7 +654,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
@@ -668,7 +668,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Overarm Tennis
           </span>
         </div>
@@ -765,7 +765,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
@@ -780,7 +780,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
 
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Chess
           </span>
         </div>
@@ -850,7 +850,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   FINAL
                 </td>
                 <td className="border border-border p-4"></td>
@@ -863,7 +863,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl font-black text-primary text-foreground tracking-tight mb-4">
             Badminton
           </span>
         </div>
@@ -960,7 +960,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
@@ -974,7 +974,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Volleyball
           </span>
         </div>
@@ -1071,7 +1071,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
@@ -1085,7 +1085,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
         </div>
 
         <div className="text-center mb-10">
-          <span className="text-2xl sm:text-3xl font-black text-foreground tracking-tight mb-4">
+          <span className="text-2xl sm:text-3xl text-primary font-black text-foreground tracking-tight mb-4">
             Underarm Cricket - Chakri
           </span>
         </div>
@@ -1182,7 +1182,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
-                <td className="border border-border p-4" colSpan={2}>
+                <td className="border border-border p-4 text-primary" colSpan={2}>
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
