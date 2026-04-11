@@ -60,8 +60,17 @@
       "date": "2026-04-10",
       "time": "6:00 PM",
       "venue": "WSC Courts",
-      "status": "upcoming",
-      "results": null
+      "status": "completed",
+      "results": {
+        "first": "team-dhurander",
+        "second": "team-gsc-a",
+        "third": "team-smandi-mandi"
+      },
+      "gallery": {
+        "first": "/images/winners/pickleball-1st.jpg",
+        "second": "/images/winners/pickleball-2nd.jpg",
+        "third": "/images/winners/pickleball-3rd.jpg"
+      }
     },
     {
       "id": "cricket",
