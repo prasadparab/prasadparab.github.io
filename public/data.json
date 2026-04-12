@@ -102,11 +102,15 @@
       "time": "09:00 AM",
       "venue": "WSC premises",
       "status": "upcoming",
-      "results": null,
+      "results": {
+        "first": "team-smandi-mandi",
+        "second": "team-gsc-a",
+        "third": "team-an-legends"
+      },
       "gallery": {
-        "first": "/images/gallery/carrom-1st.jpg",
-        "second": "/images/gallery/carrom-2nd.jpg",
-        "third": "/images/gallery/carrom-3rd.jpg"
+        "first": "/images/winners/pending.jpg",
+        "second": "/images/winners/pending.jpg",
+        "third": "/images/winners/pending.jpg"
       }
     },
     {
