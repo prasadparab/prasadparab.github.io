@@ -82,11 +82,15 @@
       "time": "07:00 PM",
       "venue": "Main Cricket Ground",
       "status": "upcoming",
-      "results": null,
+      "results": {
+        "first": "team-smandi-mandi",
+        "second": "team-42-indian",
+        "third": "team-gsc-a"
+      },
       "gallery": {
-        "first": "/images/gallery/cricket-1st.jpg",
-        "second": "/images/gallery/cricket-2nd.jpg",
-        "third": "/images/gallery/cricket-3rd.jpg"
+        "first": "/images/winners/pending.jpg",
+        "second": "/images/winners/pending.jpg",
+        "third": "/images/winners/pending.jpg"
       }
     },
     {
