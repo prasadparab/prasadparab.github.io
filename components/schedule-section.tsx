@@ -161,7 +161,7 @@ export function ScheduleSection({ games, teams }: ScheduleSectionProps) {
                                   </div>
                                   <div className="flex-1">
                                     <div className="text-sm font-semibold text-foreground">{team.name}</div>
-                                    <div className="text-xs text-[var(--silver)]">2nd Place • 70 pts</div>
+                                    <div className="text-xs text-[var(--silver)]">2nd Place • 50 pts</div>
                                   </div>
                                 </div>
                               )
@@ -177,7 +177,7 @@ export function ScheduleSection({ games, teams }: ScheduleSectionProps) {
                                   </div>
                                   <div className="flex-1">
                                     <div className="text-sm font-semibold text-foreground">{team.name}</div>
-                                    <div className="text-xs text-[var(--bronze)]">3rd Place • 50 pts</div>
+                                    <div className="text-xs text-[var(--bronze)]">3rd Place • 30 pts</div>
                                   </div>
                                 </div>
                               )
