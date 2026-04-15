@@ -133,7 +133,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">12:30 PM</td>
                 
               </tr>
-             
+              
             </tbody>
           </table>
 
@@ -799,14 +799,14 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">1.</td>
                 <td className="border border-border p-4">{teams[4].name}</td>
                 <td className="border border-border p-4">{teams[2].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">2.</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
                 <td className="border border-border p-4">{teams[5].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
@@ -853,7 +853,6 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                   FINAL
                 </td>
                 <td className="border border-border p-4"></td>
-                
               </tr>
              
             </tbody>
@@ -882,76 +881,76 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">1.</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
                 <td className="border border-border p-4">{teams[0].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">2.</td>
                 <td className="border border-border p-4">{teams[6].name}</td>
                 <td className="border border-border p-4">{teams[4].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">3.</td>
                 <td className="border border-border p-4">{teams[1].name}</td>
                 <td className="border border-border p-4">{teams[5].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">4.</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
                 <td className="border border-border p-4">{teams[4].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">5.</td>
                 <td className="border border-border p-4">{teams[1].name}</td>
                 <td className="border border-border p-4">{teams[2].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">6.</td>
                 <td className="border border-border p-4">{teams[6].name}</td>
                 <td className="border border-border p-4">{teams[0].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">7.</td>
                 <td className="border border-border p-4">{teams[5].name}</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">8.</td>
                 <td className="border border-border p-4">1st Topper</td>
                 <td className="border border-border p-4">2nd Topper</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
-                <td colSpan={5}>Qualifier 1</td>
+                <td colSpan={4}>Qualifier 1</td>
               </tr>
                <tr>
                 <td className="border border-border p-4">9.</td>
                 <td className="border border-border p-4">3rd Topper</td>
                 <td className="border border-border p-4">4th Topper</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
-                <td colSpan={5}>Eliminator</td>
+                <td colSpan={4}>Eliminator</td>
               </tr>
                <tr>
                 <td className="border border-border p-4">10.</td>
                 <td className="border border-border p-4">Looser of Qualifier 1</td>
                 <td className="border border-border p-4">Winner of eliminator</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
@@ -963,7 +962,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
              
@@ -993,66 +992,66 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">1.</td>
                 <td className="border border-border p-4">{teams[6].name}</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">2.</td>
                 <td className="border border-border p-4">{teams[0].name}</td>
                 <td className="border border-border p-4">{teams[4].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">3.</td>
                 <td className="border border-border p-4">{teams[2].name}</td>
                 <td className="border border-border p-4">{teams[1].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">4.</td>
                 <td className="border border-border p-4">{teams[6].name}</td>
                 <td className="border border-border p-4">{teams[4].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">5.</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
                 <td className="border border-border p-4">{teams[5].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">6.</td>
                 <td className="border border-border p-4">{teams[0].name}</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">7.</td>
                 <td className="border border-border p-4">{teams[1].name}</td>
                 <td className="border border-border p-4">{teams[5].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">8.</td>
                 <td className="border border-border p-4">1st Topper</td>
                 <td className="border border-border p-4">2nd Topper</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
-                <td colSpan={5}>Qualifier 1</td>
+                <td colSpan={4}>Qualifier 1</td>
               </tr>
                <tr>
                 <td className="border border-border p-4">9.</td>
                 <td className="border border-border p-4">3rd Topper</td>
                 <td className="border border-border p-4">4th Topper</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
@@ -1062,11 +1061,11 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">10.</td>
                 <td className="border border-border p-4">Looser of Qualifier 1</td>
                 <td className="border border-border p-4">Winner of eliminator</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
-                <td colSpan={5}>Qualifier 2</td>
+                <td colSpan={4}>Qualifier 2</td>
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
@@ -1074,7 +1073,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
              
@@ -1104,66 +1103,66 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">1.</td>
                 <td className="border border-border p-4">{teams[1].name}</td>
                 <td className="border border-border p-4">{teams[6].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">2.</td>
                 <td className="border border-border p-4">{teams[5].name}</td>
                 <td className="border border-border p-4">{teams[0].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">3.</td>
                 <td className="border border-border p-4">{teams[4].name}</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">4.</td>
                 <td className="border border-border p-4">{teams[1].name}</td>
                 <td className="border border-border p-4">{teams[0].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">5.</td>
                 <td className="border border-border p-4">{teams[4].name}</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">6.</td>
                 <td className="border border-border p-4">{teams[5].name}</td>
                 <td className="border border-border p-4">{teams[6].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">7.</td>
                 <td className="border border-border p-4">{teams[3].name}</td>
                 <td className="border border-border p-4">{teams[2].name}</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
                <tr>
                 <td className="border border-border p-4">8.</td>
                 <td className="border border-border p-4">1st Topper</td>
                 <td className="border border-border p-4">2nd Topper</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
-                <td colSpan={5}>Qualifier 1</td>
+                <td colSpan={4}>Qualifier 1</td>
               </tr>
                <tr>
                 <td className="border border-border p-4">9.</td>
                 <td className="border border-border p-4">3rd Topper</td>
                 <td className="border border-border p-4">4th Topper</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
@@ -1173,11 +1172,11 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                 <td className="border border-border p-4">10.</td>
                 <td className="border border-border p-4">Looser of Qualifier 1</td>
                 <td className="border border-border p-4">Winner of eliminator</td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
               <tr>
-                <td colSpan={5}>Qualifier 2</td>
+                <td colSpan={4}>Qualifier 2</td>
               </tr>
                <tr>
                 <td className="border border-border p-4">11.</td>
@@ -1185,7 +1184,7 @@ export function FixturesSection({ clubName, season, teams }: FixturesSectionProp
                   Qualifier 1 vs Qualifier 2 <br/>
                   FINAL
                 </td>
-                
+                <td className="border border-border p-4"></td>
                 
               </tr>
              
