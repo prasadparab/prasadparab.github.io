@@ -57,7 +57,7 @@ export function Header({ clubName }: HeaderProps) {
 
         <div
           className={cn(
-            "md:hidden overflow-hidden transition-all duration-300",
+            "md:hidden overflow-scroll transition-all duration-300",
             isMenuOpen ? "max-h-64 pb-4" : "max-h-0"
           )}
         >

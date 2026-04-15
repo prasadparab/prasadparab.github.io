@@ -51,7 +51,8 @@ export default function SportsClubPage() {
   const [data, setData] = useState<SportsData | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [isPortrait, setIsPortrait] = useState(false)
+  const [isPortrait, setIsPortrait] = useState(false);
+  const [forcePortrait, setforcePortrait] = useState(true)
 
   useEffect(() => {
     const updateOrientation = () => {
@@ -141,7 +142,7 @@ export default function SportsClubPage() {
 
   return (
     <>
-      {isPortrait && (
+      {isPortrait && forcePortrait &&(
         <div className="orientation-warning fixed inset-0 z-50 flex items-center justify-center bg-background/95 p-4 text-center">
           <div className="max-w-sm rounded-xl border border-border bg-card p-6">
             <h2 className="text-lg font-bold mb-2">Please rotate your device</h2>
@@ -149,6 +150,11 @@ export default function SportsClubPage() {
               This site works best in landscape mode. Rotate your phone or tablet to continue. <br />
               Also you may need to turn on "Auto-rotate" mode for your device
             </p>
+            <a
+            className="px-8 py-4 bg-secondary text-secondary-foreground font-semibold rounded-lg hover:bg-secondary/80 transition-all border border-border"
+            onClick={() => setforcePortrait(false)}>
+            Close
+          </a>
           </div>
         </div>
       )}
