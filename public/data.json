@@ -142,8 +142,17 @@
       "date": "2026-04-19",
       "time": "08:00 AM",
       "venue": "WSC Ground",
-      "status": "upcoming",
-      "results": null
+      "status": "completed",
+      "results": {
+        "first": "team-gsc-a",
+        "second": "team-smandi-mandi",
+        "third": "team-42-indian"
+      },
+      "gallery": {
+        "first": "/images/winners/pending.jpg",
+        "second": "/images/winners/pending.jpg",
+        "third": "/images/winners/pending.jpg"
+      }
     },
     {
       "id": "table-tennis",

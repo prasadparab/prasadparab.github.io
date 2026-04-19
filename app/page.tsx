@@ -150,11 +150,11 @@ export default function SportsClubPage() {
               This site works best in landscape mode. Rotate your phone or tablet to continue. <br />
               Also you may need to turn on "Auto-rotate" mode for your device
             </p><br/>
-            <a
+            {/* <a
             className="px-8 py-4 bg-secondary text-secondary-foreground font-semibold rounded-lg hover:bg-secondary/80 transition-all border border-border"
             onClick={() => setforcePortrait(false)}>
             Close
-          </a>
+          </a> */}
           </div>
         </div>
       )}
