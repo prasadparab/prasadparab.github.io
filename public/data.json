@@ -163,8 +163,17 @@
       "endDate": "2026-04-25",
       "time": "07:00 PM",
       "venue": "WSC TT Hall",
-      "status": "upcoming",
-      "results": null
+      "status": "completed",
+      "results": {
+        "first": "team-an-legends",
+        "second": "team-gsc-a",
+        "third": "team-smandi-mandi"
+      },
+      "gallery": {
+        "first": "/images/winners/tt-1st.jpg",
+        "second": "/images/winners/tt-2nd.jpg",
+        "third": "/images/winners/tt-3rd.jpg"
+      }
     },
     {
       "id": "cricket_overarm",
