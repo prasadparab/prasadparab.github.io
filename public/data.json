@@ -183,8 +183,17 @@
       "date": "2026-04-26",
       "time": "09:00 AM",
       "venue": "WSC Ground",
-      "status": "upcoming",
-      "results": null
+      "status": "completed",
+      "results": {
+        "first": "team-gsc-a",
+        "second": "team-dhurander",
+        "third": "team-42-indian"
+      },
+      "gallery": {
+        "first": "/images/winners/tc-1st.jpg",
+        "second": "/images/winners/tc-2nd.jpg",
+        "third": "/images/winners/tc-3rd.jpg"
+      }
     },
     
     {
